@@ -131,7 +131,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column-reverse;
   padding: 10px;
   width: 100%;
 }
@@ -259,7 +259,6 @@ body {
 /* Very small mobile devices */
 @media (max-width: 360px) {
   .auth-container {
-    padding: 20px 15px;
     margin: 10px;
   }
   
@@ -281,5 +280,6 @@ body {
   .dashboard {
     padding: 10px;
     grid-gap: 12px;
+    width: 320px;
   }
 }
