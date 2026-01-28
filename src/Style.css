@@ -22,7 +22,6 @@ body {
   padding: 40px;
   width: 100%;
   max-width: 400px;
-  margin: 20px;
 }
 
 .auth-form h2 {
@@ -258,9 +257,6 @@ body {
 
 /* Very small mobile devices */
 @media (max-width: 360px) {
-  .auth-container {
-    margin: 10px;
-  }
   
   .auth-form h2 {
     font-size: 24px;
